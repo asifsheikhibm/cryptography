@@ -10,6 +10,7 @@ on:
   # you do, it'll upload wheels to PyPI.
   push:
     tags:
+      - ppc64le-test
       - '*.*'
       - '*.*.*'
   pull_request:
